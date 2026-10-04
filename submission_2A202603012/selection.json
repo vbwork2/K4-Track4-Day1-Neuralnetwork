@@ -1,0 +1,25 @@
+{
+  "baseline": "base-lr0p1-s1",
+  "final": "batch-128",
+  "baseline_fingerprint": "df4e0f5d65839da953aa674da4180d473f0e3e49f6272b5d63e5ab201821f0d5",
+  "final_fingerprint": "a628ee176dda11567b553b31010e014711a3b0a627f8ac4461ac22c953be0d52",
+  "candidate_ids": [
+    "amp-fp16",
+    "base-lr0p01-s1",
+    "base-lr0p03-s1",
+    "base-lr0p1-s1",
+    "base-s2",
+    "base-s3",
+    "batch-128",
+    "clip-normal",
+    "dropout-0p3",
+    "highlr-clip",
+    "highlr-no-clip",
+    "init-xavier",
+    "init-zeros",
+    "loss-mse",
+    "opt-adam-lr0.0003",
+    "opt-adam-lr0.001"
+  ],
+  "rule": "highest validation macro-F1 at each minimum-val-loss checkpoint; seed 1 only"
+}
